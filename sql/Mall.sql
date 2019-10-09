@@ -49,7 +49,7 @@ CREATE TABLE `users` (
 -- ----------------------------
 BEGIN;
 INSERT INTO `users` VALUES (1, '超级管理员', 'e10adc3949ba59abbe56e057f20f883e', 'admin');
-INSERT INTO `users` VALUES (6, '杨锴', 'e10adc3949ba59abbe56e057f20f883e', 'blankyk');
+INSERT INTO `users` VALUES (2, 'Yo', 'e10adc3949ba59abbe56e057f20f883e', 'blankyk');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;

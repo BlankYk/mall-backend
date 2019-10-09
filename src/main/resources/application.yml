@@ -20,5 +20,5 @@ spring:
     hibernate:
       ddl-auto: update
   redis:
-    host: 39.106.14.109
-    password: 123456
+    host:
+    password:
