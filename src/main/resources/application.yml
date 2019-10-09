@@ -1,0 +1,24 @@
+server:
+  port: 6003
+  connection-timeout: 5000
+
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      connection-test-query: SELECT 1 FROM DUAL
+      minimum-idle: 1
+      maximum-pool-size: 5
+      pool-name: havasPoolName
+      auto-commit: false
+      max-lifetime: 3000
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    hibernate:
+      ddl-auto: update
+  redis:
+    host: 39.106.14.109
+    password: 123456
